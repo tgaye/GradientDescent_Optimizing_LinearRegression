@@ -77,6 +77,10 @@ approaching their best possible value.
 
 ![figure_5](https://user-images.githubusercontent.com/34739163/44152785-a3469e02-a063-11e8-950a-7b312c8ee73b.png)
 
+```
+After 1000 iterations b = 0.08893651993741346, m = 1.4777440851894448, error = 112.61481011613473
+slope formula:  y = 1.4777(x) 0.0889
+```
 
 We can definitely see that the line of best fit improves with each iteration, optimized by our gradient descent function.  If
 a function can be optimized in this way, it is said to be 'differentiable'.  This is a desirable characteristic to have because it allows for easy optimization.
