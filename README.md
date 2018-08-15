@@ -54,6 +54,33 @@ def gradient_descent_runner(points, starting_b, starting_m, learning_rate, num_i
         b, m = step_gradient(b, m, array(points), learning_rate)
     return [b, m]
 ```
+Here's the result from running our optimization, our initial values for slope and intercept will be 0 and will iteratively improve,
+approaching their best possible value.
+
+### First Iteration
+
+![figure_1](https://user-images.githubusercontent.com/34739163/44152770-9d2fa504-a063-11e8-98bd-fd8a619b9c39.png)
+
+### Second Iteration
+
+![figure_2](https://user-images.githubusercontent.com/34739163/44152772-9ecfa710-a063-11e8-89f4-dc58788b3dd0.png)
+
+### Third Iteration
+
+![figure_3](https://user-images.githubusercontent.com/34739163/44152779-a066bc4e-a063-11e8-9766-be7f037c88d7.png)
+
+### Fourth Iteration
+
+![figure_4](https://user-images.githubusercontent.com/34739163/44152782-a1aa8784-a063-11e8-89dc-9491bcd0adbe.png)
+
+### Final Iteration (1000)
+
+![figure_5](https://user-images.githubusercontent.com/34739163/44152785-a3469e02-a063-11e8-950a-7b312c8ee73b.png)
+
+
+We can definitely see that the line of best fit improves with each iteration, optimized by our gradient descent function.  If
+a function can be optimized in this way, it is said to be 'differentiable'.  This is a desirable characteristic to have because it allows for easy optimization.
+
 
 
 
